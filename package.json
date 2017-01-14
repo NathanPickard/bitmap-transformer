@@ -1,0 +1,25 @@
+{
+  "name": "bitmap-transformer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanPickard/bitmap-transformer.git"
+  },
+  "author": "Nathan Pickard <nathan.pickard87@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanPickard/bitmap-transformer/issues"
+  },
+  "homepage": "https://github.com/NathanPickard/bitmap-transformer#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.5.4",
+    "eslint": "^3.13.1"
+  }
+}
