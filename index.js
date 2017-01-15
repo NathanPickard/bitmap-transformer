@@ -5,4 +5,4 @@ function callBack() {
   console.log('callback of readWrite run');
 };
 
-read.readWrite('./LAND.bmp', callBack);
+read.readWrite('./tealLeaves.bmp', callBack);
