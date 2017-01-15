@@ -48,7 +48,6 @@ describe('Test bitmap transformation', function() {
       fs.readFile('./transformedPalmTree.bmp', function(err, data) {
         if (err) throw err;
         var orangePalmTree = Buffer.from(data);
-        //check if new buffer is the same as our standard (golden-chicken)
         assert.deepEqual(orangePalmTree, read.newBuf);
         done();
       });
